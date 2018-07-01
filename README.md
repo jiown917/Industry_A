@@ -1,11 +1,11 @@
-# Industry_A
 
-##Finding Location Using Pattern Recognition
 
-# ABSTRACT
+# Finding Location Using Pattern Recognition
+
+### ABSTRACT
 The A/C industry has a long history of meeting national and global goals through international cooperation and technology innovation. Manufacturers successfully transitioned from ODS. Under the Montreal Protocol, and continually innovate to deliver products with higher efficiency and performance at lower costs. HFC refrigerants are replacing HCFC and CFC refrigerants and now dominate the industry in developed countries. However, HFC refrigerants have high global warming potential (GWP). In a proposed amendment to the Montreal Protocol, the United States, Mexico and Canada target GWP weighted HFC consumption reductions of 85% during the period of 2019-2026. While international negotiations continue, the A/C industry continues to innovate on the next generation of refrigerants with lower GWPs to reduce direct environmental impacts while also improving A/C system efficiency to reduce indirect impacts 
 
-INTRODUCTION
+### INTRODUCTION
 
 In order to overcome the limitations of existing air conditioning functions, it is necessary to first investigate the requirements. It is divided into product requirements and customer requirements
 First, in the customer’s requirement, it is needed minimalized volume of the machine, minute temperature change, competitive price, and automatic shutdown in the absence of personnel.
@@ -24,17 +24,17 @@ Fourth, the operation of the machine through contextual programming is needed
 Finally, it must distinguish people from other moving objects
 
 
-# Limitation of previous research
+### Limitation of previous research
 The air conditioner of the artificial intelligence technology which is sold on the market moves only the direction of the fan by grasping the movement of the person on the spot.
 
-# Needs of the research
+### Needs of the research
 The ambient temperature rises when a large number of people enter a certain space or doing activities such as exercise, however since the air conditioner can’t flexibly recognize the temperature change, it is necessary to control the temperature according to the number of persons or specific actions. 
 
 
-# OBJECT
+### OBJECT
 Our final goal is to make efficient air-conditioner system by finding location using pattern recognition on raspberry pi. In order to build the features, the strength and direction of the air-con automatically changes based on intensity of people. Also it changes according to the specific gestures regarding how people act when the room is hot such as making wind by their hands with all their fingers straighten up or grab their top part of shirt and shake.
 
-# PROCESSING
+### PROCESSING
 We focused on software to achieve our goals. Therefore, we first analyze human behavior when the weather is hot and proceed with face recognition, motion recognition, and human temperature sensing.
 
 We came up with a conclusion that people use hand motions when it’s hot. Therefore we implemented the code which works regarding to hand
@@ -46,7 +46,7 @@ Next, we implemented a code that counts inflows of people by separating the entr
 
 
 
-# CONCLUSION
+### CONCLUSION
 
 We implemented face recognition through some codes but there were some problems in this process. The first problem was the slow speed of face recognition. We fixed this problem using LBP Cascade Classifier instead of  Haar Cascade Classifier.  
  
